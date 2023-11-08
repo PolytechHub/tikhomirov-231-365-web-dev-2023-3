@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Cyrillic Old Face;
+    src: url(fonts/cyrillicoldface.ttf);
+}
+
+.wrapper {
+    font-family: Cyrillic Old Face;
+}
+
+.header {
+    display: flex;
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+    gap: 2rem;
+}
+
+.header-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.header-nav-ref {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-title {
+    margin-left: auto;
+}
+
+.mainframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    .mainframe {
+        height: 50vh;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    .header-nav {
+        flex-wrap: wrap;
+    }
+}
+
+.download {
+    text-align: center;
+}
+
+.download-thanks {
+    font-size: 3rem;
+    color: red;
+}
+
+.download-link {
+    font-size: 1.5rem;
+}
+
+.footer {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.wrapper-print {
+    display: none;
+}

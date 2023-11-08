@@ -1,0 +1,11 @@
+.wrapper {
+    display: none;
+}
+
+.wrapper-print {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25pt;
+    margin-top: 50pt;
+}
